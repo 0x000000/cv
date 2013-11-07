@@ -1,0 +1,144 @@
+body {
+  padding: 20px;
+  width: 700px;
+}
+
+h1 {
+  font-size: 23px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
+
+h3 {
+  font-size: 23px;
+  margin: 0 0 10px 0;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+h5 {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.main-info {
+  margin: 0 0 20px 0;
+}
+
+.main-info dd {
+  float: left;
+  margin: 0 0 10px 0;
+  width: 70px;
+}
+
+.main-info dd:after {
+  content: ':';
+}
+
+.main-info dt {
+  margin: 0 0 10px 0;
+}
+
+.programming-skills {
+  padding-left: 30px;
+  margin: 0 0 20px 0;
+}
+
+.programming-skills li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.skill {
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 15px;
+  padding: 2px 4px;
+}
+
+.expert {
+  background-color: #b94a48;
+}
+
+.programming-skills li:first-child .expert {
+  margin-left: 47px;
+}
+
+.advanced {
+  background-color: #f89406;
+}
+
+.strong {
+  background-color: #468847;
+  margin-left: 39px;
+}
+
+.technologies {
+  margin: 0 0 30px 0;
+  width: 600px;
+}
+
+.technologies dd {
+  float: left;
+  margin: 0 0 10px 0;
+  width: 200px;
+}
+
+.technologies dt {
+  margin: 0 0 10px 0;
+}
+
+.technologies dd:after {
+  content: ':';
+}
+
+.other-technologies {
+  padding-left: 200px;
+}
+
+.period {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.experience {
+  font-weight: bolder;
+}
+
+.interesting-fact,
+.position,
+.company {
+  font-style: italic;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 0 10px 0;
+}
+
+.about-me {
+  margin: 0 0 30px 0;
+}
+
+.interesting-fact {
+  margin: 0 0 10px 0;
+}
+
+.interesting-fact:last-child {
+  margin-bottom: 25px;
+}
