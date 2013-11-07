@@ -5,7 +5,7 @@
     var now = new Date();
     var totalMonths = (now.getFullYear() - 1987) * 12 - 11 + now.getMonth();
 
-    return Math.floor(totalMonths / 12)
+    return Math.floor(totalMonths / 12);
   }
 
   g.App = {
