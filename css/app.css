@@ -117,8 +117,13 @@ p {
 
 .interesting-fact {
   font-style: italic;
+  margin: 0 0 10px 0;
 }
 
-.interesting-fact {
-  margin: 0 0 10px 0;
+@media print {
+  .page {
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+  }
 }
